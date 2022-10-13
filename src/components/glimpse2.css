@@ -1,0 +1,102 @@
+:root {
+    --color_1: rgb(212, 255, 228);
+    --color_2: rgb(70, 157, 137);
+    --color_3: rgb(3, 102, 102);
+    --color_4: rgb(8, 69, 69);
+    --color_white: #ffffff;
+    /*Dark palette*/
+    --color_dark1: #0D1B2A;
+    --color_dark2: #1B263B;
+    --color_dark3: #415A77;
+    --color_dark4: #778DA9;
+    --color_dark5: #E0E1DD;
+  }
+
+.glimpse2-review {
+    width: 240px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: var(--color_dark5);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.glimpse2-review  p {
+    font-size: 14px;
+    text-align: left;
+    overflow: auto;
+}
+
+.glimpse2-review button {
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    cursor: pointer;
+}
+
+.glimpse2-review button .bx {
+    font-size: 18px;
+    color: #111;
+}
+
+.glimpse2-review button .bx:hover {
+    font-size: 18px;
+    color: var(--color_3);
+}
+
+.glimpse2-review  span {
+    font-size: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 280px) {
+
+    .glimpse2-review {
+        width: 190px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        background-color: var(--color_dark5);
+        border-radius: 20px;
+        padding: 10px;
+    }
+    
+    .glimpse2-review  p {
+        font-size: 12px;
+        text-align: left;
+        overflow: auto;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+
+    .glimpse2-review {
+        width: 200px;
+        height: 340px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        background-color: var(--color_dark5);
+        border-radius: 20px;
+        padding: 10px;
+    }
+    
+    .glimpse2-review  p {
+        font-size: 15px;
+        text-align: left;
+        overflow: auto;
+    }
+}

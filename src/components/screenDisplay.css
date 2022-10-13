@@ -1,0 +1,209 @@
+:root {
+    --color_1: rgb(212, 255, 228);
+    --color_2: rgb(70, 157, 137);
+    --color_3: rgb(3, 102, 102);
+    --color_4: rgb(8, 69, 69);
+    --color_5: rgb(0, 12, 12);
+    --color_white: #ffffff;
+    /*Dark palette*/
+    --color_dark1: #0D1B2A;
+    --color_dark2: #1B263B;
+    --color_dark3: #415A77;
+    --color_dark4: #778DA9;
+    --color_dark5: #E0E1DD;
+}
+
+.screen-main {
+    width: 80%;
+    height: 250px;
+    background-color: var(--color_dark5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen-main.dark {
+    width: 80%;
+    height: 250px;
+    background-color: var(--color_5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 350px) {
+
+    .screen-main {
+        width: 80%;
+        height: 250px;
+        background-color: var(--color_dark5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: scale(1.2);
+    }
+
+    .screen-main.dark {
+        width: 80%;
+        height: 250px;
+        background-color: var(--color_5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: scale(1.2);
+    }
+}
+
+@media only screen and (min-width: 351px) and (max-width: 400px) {
+
+    .screen-main {
+        width: 80%;
+        height: 290px;
+        background-color: var(--color_dark5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: scale(1.1);
+    }
+
+    .screen-main.dark {
+        width: 80%;
+        height: 290px;
+        background-color: var(--color_5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: scale(1.1);
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 450px) {
+
+    .screen-main {
+        width: 70%;
+        height: 350px;
+        background-color: var(--color_dark5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: scale(1.2);
+    }
+
+    .screen-main.dark {
+        width: 70%;
+        height: 350px;
+        background-color: var(--color_5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 451px) and (max-width: 500px) {
+
+    .screen-main {
+        width: 70%;
+        height: 390px;
+        background-color: var(--color_dark5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: scale(1.2);
+    }
+
+    .screen-main.dark {
+        width: 70%;
+        height: 390px;
+        background-color: var(--color_5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 600px) {
+
+    .screen-main {
+        width: 70%;
+        height: 390px;
+        background-color: var(--color_dark5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: scale(1.1);
+    }
+
+    .screen-main.dark {
+        width: 70%;
+        height: 390px;
+        background-color: var(--color_5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 750px) {
+
+    .screen-main {
+        width: 70%;
+        height: 390px;
+        background-color: var(--color_dark5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .screen-main.dark {
+        width: 70%;
+        height: 390px;
+        background-color: var(--color_5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 751px) and (max-width: 1000px) {
+
+    .screen-main {
+        width: 600px;
+        height: 390px;
+        background-color: var(--color_dark5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .screen-main.dark {
+        width: 600px;
+        height: 390px;
+        background-color: var(--color_5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .screen-main {
+        width: 40%;
+        height: 390px;
+        background-color: var(--color_dark5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: scale(0.8);
+    }
+
+    .screen-main.dark {
+        width: 40%;
+        height: 390px;
+        background-color: var(--color_5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: scale(0.8);
+    }
+}

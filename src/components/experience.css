@@ -1,0 +1,91 @@
+:root {
+    --color_1: rgb(212, 255, 228);
+    --color_2: rgb(70, 157, 137);
+    --color_3: rgb(3, 102, 102);
+    --color_4: rgb(8, 69, 69);
+    --color_5: rgb(0, 12, 12);
+    --color_white: #ffffff;
+    /*Dark palette*/
+    --color_dark1: #0D1B2A;
+    --color_dark2: #1B263B;
+    --color_dark3: #415A77;
+    --color_dark4: #778DA9;
+    --color_dark5: #E0E1DD;
+}
+
+.experience {
+    width: 100%;
+    height: auto;
+    margin-top: 140px;
+    border-radius: 20px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 25vh;
+}
+
+.experience-grid-1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+
+    .experience {
+        width: 100%;
+        height: auto;
+        margin-top: 100px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+
+    .experience-grid-1 {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-rows: auto auto;
+        justify-content: center;
+        align-items: center;
+        gap: 120px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .experience {
+        width: 100%;
+        height: auto;
+        margin-top: 90px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 5%;
+    }
+
+
+    .experience-grid-1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+}

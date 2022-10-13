@@ -1,0 +1,104 @@
+:root {
+    --color_1: rgb(212, 255, 228);
+    --color_2: rgb(70, 157, 137);
+    --color_3: rgb(3, 102, 102);
+    --color_4: rgb(8, 69, 69);
+    --color_5: rgb(0, 12, 12);
+    --color_white: #ffffff;
+    /*Dark palette*/
+    --color_dark1: #0D1B2A;
+    --color_dark2: #1B263B;
+    --color_dark3: #415A77;
+    --color_dark4: #778DA9;
+    --color_dark5: #E0E1DD;
+}
+
+.education-2 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.education-2-img {
+    width: 104.5px;
+    height: 102.4px;
+    border-radius: 15px;
+}
+
+.education-2-h3 {
+    color: var(--color_2);
+    font-size: 10px;
+    text-align: center;
+}
+
+.education-2-h3.dark {
+    color: var(--color_dark5);
+    font-size: 10px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+
+    .education-2 {
+        width: 100%;
+        height: 210px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 9px;
+    }
+
+    .education-2-img {
+        width: 104.5px;
+        height: 102.4px;
+        border-radius: 15px;
+    }
+
+    .education-2-h3 {
+        color: var(--color_2);
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .education-2-h3.dark {
+        color: var(--color_dark5);
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .education-2 {
+        width: 100%;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .education-2-img {
+        width: 116.11px;
+        height: 113.77px;
+        border-radius: 15px;
+    }
+
+    .education-2-h3 {
+        color: var(--color_2);
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .education-2-h3.dark {
+        color: var(--color_dark5);
+        font-size: 11px;
+        text-align: center;
+    }
+}

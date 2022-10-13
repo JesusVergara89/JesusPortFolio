@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color_dark5);
+}
+
+:root {
+  --color_1: rgb(212, 255, 228);
+  --color_2: rgb(70, 157, 137);
+  --color_3: rgb(3, 102, 102);
+  --color_4: rgb(8, 69, 69);
+  --color_5: rgb(0, 12, 12);
+  --color_white: #ffffff;
+  /*Dark palette*/
+  --color_dark1: #0D1B2A;
+  --color_dark2: #1B263B;
+  --color_dark3: #415A77;
+  --color_dark4: #778DA9;
+  --color_dark5: #E0E1DD;
+}
+
+
+button {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  background-color: var(--color_dark5);
+  padding-bottom: 20%;
+}
+
+.App.dark {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  background-color: var(--color_5);
+  padding-bottom: 20%;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: var(--color_dark5);
+    padding-bottom: 20%;
+  }
+
+  .App.dark {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: var(--color_5);
+    padding-bottom: 20%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: var(--color_dark5);
+    padding-bottom: 20%;
+  }
+
+  .App.dark {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: var(--color_5);
+    padding-bottom: 20%;
+  }
+}

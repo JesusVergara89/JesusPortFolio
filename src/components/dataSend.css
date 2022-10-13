@@ -1,0 +1,84 @@
+:root {
+    --color_1: rgb(244, 211, 94);
+    --color_2: rgb(13, 59, 102);
+    --color_3: rgb(249, 87, 56);
+    --color_white: #ffffff;
+}
+
+.data-send {
+    width: 230px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color_2);
+    gap: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid var(--color_1 );
+    z-index: 2;
+    position: absolute;
+    top: 250px;
+}
+
+.data-send-h2 {
+    color: var(--color_white);
+    font-size: 14px;
+    text-align: center;
+}
+
+.data-send .send-h2 {
+    color: var(--color_white);
+    font-size: 11px;
+    text-align: center;
+}
+
+.send-div-p {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.data-send p {
+    color: var(--color_white);
+    text-align: justify;
+    font-size: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.data-send .bx {
+    color: var(--color_2);
+    font-size: 40px;
+}
+
+.data-send-btn {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    border: 2px solid var(--color_3);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: var(--color_1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data-send-btn:hover {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    border: 2px solid var(--color_1);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: var(--color_3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,54 @@
+:root {
+    --color_1: rgb(212, 255, 228);
+    --color_2: rgb(70, 157, 137);
+    --color_3: rgb(3, 102, 102);
+    --color_4: rgb(8, 69, 69);
+    --color_5: rgb(0, 12, 12);
+    --color_white: #ffffff;
+    /*Dark palette*/
+    --color_dark1: #0D1B2A;
+    --color_dark2: #1B263B;
+    --color_dark3: #415A77;
+    --color_dark4: #778DA9;
+    --color_dark5: #E0E1DD;
+}
+
+.btn-1 {
+    width: 40%;
+    height: 40px;
+    background: none;
+    border: none;
+}
+
+@keyframes traslateBtn {
+
+    0% {
+        transform: translateY(-15px);
+        color: var(--color_2);
+    }
+
+    100% {
+        transform: translateY(40px);
+        color: var(--color_1);
+    }
+
+}
+
+.btn-1 .bx {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--color_2);
+    animation-name: traslateBtn;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@media only screen and (min-width: 600px) {
+    .btn-1 {
+        display: none;
+    }
+
+    .btn-1 .bx {
+        display: none;
+    }
+}
